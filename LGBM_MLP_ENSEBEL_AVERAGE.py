@@ -146,7 +146,7 @@ def process_train_case(train_case):
         "LGBM Generalization Gap", "MLP Generalization Gap",
         "LGBM Loss Ratio", "MLP Loss Ratio"
     ])
-    results_df.to_csv(os.path.join(case_path, f"{train_case}_LGBM_MLP_Ensemble_WEIGHT_Results_external.csv"), index=False)
+    results_df.to_csv(os.path.join(result_case_path, f"{train_case}_LGBM_MLP_Ensemble_WEIGHT_Results_external.csv"), index=False)
 
     return results_df
 
